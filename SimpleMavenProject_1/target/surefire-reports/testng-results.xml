@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[BajajTest Executed]]>
+    </line>
+    <line>
+      <![CDATA[DucatiTest Executed]]>
+    </line>
+    <line>
+      <![CDATA[KTMTest Executed]]>
+    </line>
+    <line>
+      <![CDATA[YamahaTest Executed]]>
+    </line>
+    <line>
+      <![CDATA[AudiTest Executed]]>
+    </line>
+    <line>
+      <![CDATA[FerratiTest Execued]]>
+    </line>
+    <line>
+      <![CDATA[Lamborgini Executed]]>
+    </line>
+    <line>
+      <![CDATA[Tata Motors Executed]]>
+    </line>
+    <line>
+      <![CDATA[SampleTest Classs Executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-11-08T11:20:27 IST" name="Surefire suite" finished-at="2024-11-08T11:22:09 IST" duration-ms="101775">
+    <groups>
+    </groups>
+    <test started-at="2024-11-08T11:20:27 IST" name="Surefire test" finished-at="2024-11-08T11:22:09 IST" duration-ms="101775">
+      <class name="BikesAssignment55.BajajTest">
+        <test-method signature="bajaj()[pri:0, instance:BikesAssignment55.BajajTest@4e096385]" started-at="2024-11-08T11:20:27 IST" name="bajaj" finished-at="2024-11-08T11:20:40 IST" duration-ms="13297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[BajajTest Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bajaj -->
+      </class> <!-- BikesAssignment55.BajajTest -->
+      <class name="ToLearnMavenParameterTest">
+        <test-method signature="mavenParameter()[pri:0, instance:ToLearnMavenParameterTest@6bedbc4d]" started-at="2024-11-08T11:22:05 IST" name="mavenParameter" finished-at="2024-11-08T11:22:09 IST" duration-ms="3418" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.base/java.util.Objects.requireNonNull(Objects.java:233)
+at java.base/java.util.ImmutableCollections$Map1.<init>(ImmutableCollections.java:1112)
+at java.base/java.util.Map.of(Map.java:1365)
+at org.openqa.selenium.remote.DriverCommand.GET(DriverCommand.java:180)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
+at ToLearnMavenParameterTest.mavenParameter(ToLearnMavenParameterTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mavenParameter -->
+      </class> <!-- ToLearnMavenParameterTest -->
+      <class name="CarsAssignment54.FerrariTest">
+        <test-method signature="Ferrari()[pri:0, instance:CarsAssignment54.FerrariTest@6d3a388c]" started-at="2024-11-08T11:21:40 IST" name="Ferrari" finished-at="2024-11-08T11:21:49 IST" duration-ms="8383" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[FerratiTest Execued]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Ferrari -->
+      </class> <!-- CarsAssignment54.FerrariTest -->
+      <class name="BikesAssignment55.KtmTest">
+        <test-method signature="ktm()[pri:0, instance:BikesAssignment55.KtmTest@6c130c45]" started-at="2024-11-08T11:20:47 IST" name="ktm" finished-at="2024-11-08T11:21:20 IST" duration-ms="32239" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[KTMTest Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ktm -->
+      </class> <!-- BikesAssignment55.KtmTest -->
+      <class name="SampleTest">
+        <test-method signature="Demo()[pri:0, instance:SampleTest@57af006c]" started-at="2024-11-08T11:22:05 IST" name="Demo" finished-at="2024-11-08T11:22:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[SampleTest Classs Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- SampleTest -->
+      <class name="CarsAssignment54.LamborginiTest">
+        <test-method signature="lamborgini()[pri:0, instance:CarsAssignment54.LamborginiTest@193f604a]" started-at="2024-11-08T11:21:49 IST" name="lamborgini" finished-at="2024-11-08T11:21:58 IST" duration-ms="9251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Lamborgini Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- lamborgini -->
+      </class> <!-- CarsAssignment54.LamborginiTest -->
+      <class name="CarsAssignment54.TataMotorsTest">
+        <test-method signature="tata()[pri:0, instance:CarsAssignment54.TataMotorsTest@20f5239f]" started-at="2024-11-08T11:21:58 IST" name="tata" finished-at="2024-11-08T11:22:05 IST" duration-ms="6951" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Tata Motors Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tata -->
+      </class> <!-- CarsAssignment54.TataMotorsTest -->
+      <class name="CarsAssignment54.AudiTest">
+        <test-method signature="audi()[pri:0, instance:CarsAssignment54.AudiTest@223aa2f7]" started-at="2024-11-08T11:21:30 IST" name="audi" finished-at="2024-11-08T11:21:40 IST" duration-ms="10799" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AudiTest Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- audi -->
+      </class> <!-- CarsAssignment54.AudiTest -->
+      <class name="BikesAssignment55.DucatiTest">
+        <test-method signature="ducati()[pri:0, instance:BikesAssignment55.DucatiTest@6a84a97d]" started-at="2024-11-08T11:20:40 IST" name="ducati" finished-at="2024-11-08T11:20:47 IST" duration-ms="7242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[DucatiTest Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ducati -->
+      </class> <!-- BikesAssignment55.DucatiTest -->
+      <class name="BikesAssignment55.YamahaTest">
+        <test-method signature="yamaha()[pri:0, instance:BikesAssignment55.YamahaTest@50ad3bc1]" started-at="2024-11-08T11:21:20 IST" name="yamaha" finished-at="2024-11-08T11:21:30 IST" duration-ms="10103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[YamahaTest Executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- yamaha -->
+      </class> <!-- BikesAssignment55.YamahaTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
